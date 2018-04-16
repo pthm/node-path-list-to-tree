@@ -1,11 +1,11 @@
-# path-list-parser
+# path-list-to-tree
 
-Parses a list of file paths into a tree structure.
+Converts a list of file paths into a tree structure.
 
 ## Example
 
 ```javascript
-import parseFilePaths from 'path-list-parser';
+import pathListToTree from 'path-list-to-tree';
 
 const filePaths = [
   '.gitignore',
@@ -17,7 +17,7 @@ const filePaths = [
   'yarn.lock'
 ];
 
-console.log(parseFilePaths(filePaths))
+console.log(pathListToTree(filePaths))
 ```
 ```json
 [
@@ -68,5 +68,4 @@ console.log(parseFilePaths(filePaths))
 
       ]
    }
-
 ```

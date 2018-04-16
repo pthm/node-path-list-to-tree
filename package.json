@@ -2,7 +2,7 @@
   "name": "path-list-to-tree",
   "version": "1.0.0",
   "author": "Patt-tom McDonnell <contact@mcdonnell.pt>",
-  "repository": "https://github.com/pthm/node-path-list-parser",
+  "repository": "https://github.com/pthm/node-path-list-to-tree",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
