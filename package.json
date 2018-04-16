@@ -1,0 +1,28 @@
+{
+  "name": "path-list-parser",
+  "version": "1.0.0",
+  "author": "Patt-tom McDonnell <contact@mcdonnell.pt>",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "yarn compile",
+    "compile": "tsc -p ."
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "devDependencies": {
+    "@types/node": "^9.6.5",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+  },
+  "keywords": [
+    "path",
+    "list",
+    "parse",
+    "tree",
+    "file"
+  ]
+}
