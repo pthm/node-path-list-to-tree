@@ -1,8 +1,9 @@
 {
-  "name": "path-list-parser",
+  "name": "path-list-to-tree",
   "version": "1.0.0",
   "author": "Patt-tom McDonnell <contact@mcdonnell.pt>",
-  "main": "src/index.js",
+  "repository": "https://github.com/pthm/node-path-list-parser",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "prepublishOnly": "yarn compile",
